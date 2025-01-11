@@ -5099,10 +5099,10 @@ figcaption {
 }
 
 .tokenomics-image {
-    width: 150px;
+    width: 500px;
     /* Adjust image size */
     height: auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* Optional: Add circular styling */
 }
 
