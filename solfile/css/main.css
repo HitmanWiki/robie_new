@@ -4127,11 +4127,12 @@ figcaption {
     grid-column-gap: 0rem;
     grid-row-gap: 0rem;
     grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-auto-columns: 1fr;
     align-items: stretch;
     display: grid;
 }
+
 
 .card-row7_card {
     border: 1px solid var(--border-color--border-primary);
@@ -4531,7 +4532,7 @@ figcaption {
     grid-column-gap: 0rem;
     grid-row-gap: 0rem;
     grid-template-rows: auto;
-    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .logo6_wrapper {
@@ -4921,6 +4922,7 @@ figcaption {
     grid-column-gap: 60px;
     grid-row-gap: 60px;
     border-left: 4px solid #aef0f340;
+
     flex-flow: column;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -4929,6 +4931,7 @@ figcaption {
     padding-left: 56px;
     display: flex;
 }
+
 
 .tokenomics-block:hover {
     border-left-color: #aef0f3;
@@ -4969,6 +4972,32 @@ figcaption {
     inset: -7% 0% auto auto;
     /*inset: -17% 0% auto auto;*/
 }
+
+.tokenomics-row {
+    display: flex;
+    justify-content: space-between;
+    /* Align Tax section and Robie image side by side */
+    align-items: center;
+    /* Vertically center the content */
+    gap: 20px;
+    /* Add spacing between columns */
+}
+
+.tokenomics-image-wrapper {
+    text-align: center;
+    flex: 1;
+    /* Allow the image to take equal space */
+}
+
+.tokenomics-image {
+    width: 150px;
+    /* Adjust image size */
+    height: auto;
+    border-radius: 50%;
+    /* Optional: Add circular styling */
+}
+
+
 
 .hero-image-container {
     aspect-ratio: 3 / 2;
@@ -5820,7 +5849,7 @@ figcaption {
     .card-row7_component {
         grid-column-gap: 0px;
         grid-row-gap: 0px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
     .card-row7_card {
